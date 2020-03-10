@@ -1,0 +1,71 @@
+body {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(212, 201, 201, 0.45);
+}
+
+#wrapper {
+    font-size: larger;
+    margin: 15vh;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgba(175, 201, 201, 0.815);
+    border-radius: 5%;
+    box-shadow:8px 8px 12px black;
+    background-image: url(https://i.makeagif.com/media/7-30-2018/1x7nzS.gif);
+    background-size: cover;
+}
+#map {
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    box-shadow:8px 8px 16px black;
+  }
+  
+  h1 {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      color: red;
+      animation: colorChange 10s ease-in-out 0s infinite;
+      
+  }
+
+#header {
+    font-size: larger;
+    letter-spacing: .2rem;
+}
+.blue {
+    background-color: rgba(0, 0, 255, 0.472);
+    margin-bottom: 2vh;
+    margin: 1.2vh;
+    box-shadow:2px 2px 4px rgb(111, 106, 106);
+}
+input {
+    width:14vh;
+    height:4vh;
+    border-radius: 10%;
+}
+p {
+    color: rgba(209, 79, 79, 0.492);
+    padding: 3vh;
+    text-shadow: .5px .5px 1px rgb(214, 50, 50);
+}
+
+@keyframes colorChange {
+    33.33%{
+        color: rgb(27, 12, 15);
+        text-shadow: 4px 4px 8px rgb(53, 51, 51);
+    }
+    66.66%{
+        color: rgb(241, 7, 54);
+        text-shadow: 4px 4px 8px rgb(53, 51, 51);
+    }
+    100%{
+        color: rgb(187, 173, 176);
+        text-shadow: 4px 4px 8px rgb(53, 51, 51);
+    }
+}

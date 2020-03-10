@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        
+        <h2>My google map</h2>
+        <div id="map"> </div>
+             
+  <div id="header"><h1>where can we cause trouble today?</h1></div>
+        <div id="container">
+            <div id="navBars">
+                <input id="textArea" type="text">
+                <input class="blue" type="button" id="brooklyn" value="brooklyn">
+                <input class="blue" type="button" id="manhattan" value="manhattan">
+                <input class="blue" type="button" id="queens" value="queens">
+                <input class="blue" type="button" id="bronx" value="bronx">
+                <input class="blue" type="button" id="statenIsland" value="staten island">
+                <p id="list" ></where>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHS9m5lWJEyEkdmXs7nFDD011daMhYlPs&callback=initMap">
+    </script>
+</body>
+</html>
